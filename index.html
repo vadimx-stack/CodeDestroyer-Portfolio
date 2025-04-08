@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeDestroyer | Портфолио</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-black text-white min-h-screen">
+    <nav class="fixed w-full z-10 backdrop-filter backdrop-blur-lg bg-black bg-opacity-30">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold neon-text">CodeDestroyer</a>
+            <div class="flex space-x-6">
+                <a href="#about" class="hover:neon-text transition-colors duration-300">О&nbsp;Себе</a>
+                <a href="#skills" class="hover:neon-text transition-colors duration-300">Навыки</a>
+                <a href="#contact" class="hover:neon-text transition-colors duration-300">Контакты</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="relative flex items-center justify-center min-h-screen">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="glow"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 py-32">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4 glitch" data-text="CodeDestroyer">CodeDestroyer</h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-300" id="tagline"></p>
+                <div class="cybr-btn-container">
+                    <a href="#contact" class="cybr-btn">
+                        Связаться<span aria-hidden>_</span>
+                        <span aria-hidden class="cybr-btn__glitch">Связаться_</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 neon-text text-center">О СЕБЕ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="neon-box p-6">
+                    <p class="text-lg" id="about-text"></p>
+                </div>
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn red"></span>
+                            <span class="terminal-btn yellow"></span>
+                            <span class="terminal-btn green"></span>
+                        </div>
+                        <div class="terminal-title">profile.exe</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="line">$ <span class="command">whoami</span></div>
+                        <div class="line">CodeDestroyer</div>
+                        <div class="line">$ <span class="command">cat skills.txt</span></div>
+                        <div class="line">[Full-Stack Development, UI/UX Design, Performance Optimization]</div>
+                        <div class="line">$ <span class="command">location</span></div>
+                        <div class="line">Digital Universe</div>
+                        <div class="line">$ <span class="command">status</span></div>
+                        <div class="line">Доступен для амбициозных проектов</div>
+                        <div class="line cursor">$</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 neon-text text-center">НАВЫКИ</h2>
+            <div class="skills-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 neon-text text-center">КОНТАКТЫ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="neon-box p-6">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 flex items-center justify-center neon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">Email</h3>
+                            <a href="mailto:vadimkapro0123@gmail.com" class="hover:neon-text transition-colors duration-300" id="email"></a>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 flex items-center justify-center neon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">LinkedIn</h3>
+                            <a href="#" class="hover:neon-text transition-colors duration-300" id="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="neon-box p-6">
+                    <div class="flex items-center justify-center mb-6">
+                        <div class="w-16 h-16 flex items-center justify-center neon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">GitHub</h3>
+                    <p class="text-center mb-6">Посмотрите мои проекты и код на GitHub</p>
+                    <div class="cybr-btn-container flex justify-center">
+                        <a href="https://github.com/vadimx-stack" class="cybr-btn" id="github-link">
+                            GitHub<span aria-hidden>_</span>
+                            <span aria-hidden class="cybr-btn__glitch">GitHub_</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 bg-black">
+        <div class="container mx-auto px-6">
+            <p class="text-center text-gray-400">&copy; 2025 CodeDestroyer. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,29 @@
+{
+  "name": "CodeDestroyer",
+  "tagline": "Превращаю сложные задачи в элегантный код",
+  "about": "Опытный full-stack разработчик, специализирующийся на создании высокопроизводительных веб-приложений с безупречным пользовательским опытом.",
+  "skills": [
+    {
+      "category": "Frontend",
+      "techs": ["JavaScript", "React", "Vue", "TypeScript", "HTML5", "CSS3", "Tailwind"]
+    },
+    {
+      "category": "Backend",
+      "techs": ["Node.js", "Express", "Python", "Django", "GraphQL", "REST API"]
+    },
+    {
+      "category": "DevOps",
+      "techs": ["Docker", "Kubernetes", "CI/CD", "AWS", "Azure", "Git"]
+    },
+    {
+      "category": "Базы данных",
+      "techs": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"]
+    }
+  ],
+  "github": "https://github.com/vadimx-stack",
+  "contact": {
+    "email": "vadimkapro0123@gmail.com",
+    "linkedin": "https://linkedin.com/in/codedestroyer",
+    "twitter": "https://twitter.com/CodeDestroyer"
+  }
+} 
